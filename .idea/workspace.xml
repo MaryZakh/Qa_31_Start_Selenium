@@ -7,7 +7,6 @@
     <list default="true" id="d2a75dc8-cffe-471b-88ec-d1445d9f18ed" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/HomeWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomeWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Index.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +72,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Gradle.HomeWork.classwork.executor": "Run",
+    "Gradle.HomeWork.classwork1.executor": "Run",
     "Gradle.Index.cssLocators.executor": "Run",
     "Gradle.Index.tableTest.executor": "Run",
     "Gradle.StartSelenium.test.executor": "Run",
@@ -85,7 +85,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.HomeWork.classwork">
+  <component name="RunManager" selected="Gradle.HomeWork.classwork1">
     <configuration name="HomeWork.classwork" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -100,6 +100,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;HomeWork.classwork&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="HomeWork.classwork1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;HomeWork.classwork1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -184,6 +208,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.HomeWork.classwork1" />
         <item itemvalue="Gradle.HomeWork.classwork" />
         <item itemvalue="Gradle.Index.tableTest" />
         <item itemvalue="Gradle.Index.cssLocators" />

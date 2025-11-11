@@ -82,7 +82,7 @@ public class HomeWork {
         WebElement password_xP = wd.findElement(By.xpath("//input[@placeholder='Password']"));
 
         WebElement password1 = wd.findElement(By.cssSelector("[placeholder ^='Pa']"));
-        WebElement password_xP1= wd.findElement(By.xpath("//input[starts-with(@placeholder,'Pa')]"));
+        WebElement password_xP1 = wd.findElement(By.xpath("//input[starts-with(@placeholder,'Pa')]"));
 
         WebElement password2 = wd.findElement(By.cssSelector("[placeholder *= 'ss']"));
         WebElement password_xP2 = wd.findElement(By.xpath("//*[contains(@placeholder,'ss')]"));
@@ -94,7 +94,7 @@ public class HomeWork {
 
 
     @Test
-    public void classwork(){
+    public void classwork() {
         //parent
         WebElement el = wd.findElement(By.xpath("//h1/.."));
         WebElement el1 = wd.findElement(By.xpath("//h1/parent::*"));
@@ -111,11 +111,33 @@ public class HomeWork {
         List<WebElement> list = wd.findElements(By.xpath("//h1/ancestor-or-self::*"));
 
         //following-sibling
-        List<WebElement>list1 = wd.findElements(By.xpath("//h1/following-sibling::a"));
+        List<WebElement> list1 = wd.findElements(By.xpath("//h1/following-sibling::a"));
 
         //preceding-sibling
         WebElement el7 = wd.findElement(By.xpath("//a[last()]/preceding-sibling::*"));
         WebElement el8 = wd.findElement(By.xpath("//a[3]/preceding-sibling::a[1]"));
+    }
+
+    @Test
+    public void classwork1() {
+        WebElement element = wd.findElement(By.cssSelector("[name='login']"));
+        String text = element.getText();
+        System.out.println(text);
+
+        WebElement form = wd.findElement(By.xpath("//form"));
+        String textForm = form.getText();
+        System.out.println("**************************************");
+        System.out.println(textForm);
+
+
+        WebElement html = wd.findElement(By.tagName("html"));
+        String textAll = html.getText();
+        System.out.println("**************************************");
+        System.out.println(textAll);
+
+        WebElement br = wd.findElement(By.tagName("br"));
+        System.out.println("text br--->"+br.getText());
+
 
     }
 
